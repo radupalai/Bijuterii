@@ -1,0 +1,270 @@
+/* Setări generale */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #222;
+    color: white;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: gold;
+}
+
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('https://source.unsplash.com/1600x900/?jewelry,luxury') center/cover no-repeat;
+    color: rgb(0, 0, 0);
+}
+
+.hero h1 {
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.btn {
+    background: gold;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #e6b800;
+}
+
+/* Colecție */
+.collection {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.collection h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.item p {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Newsletter */
+#newsletter {
+    text-align: center;
+    padding: 50px 20px;
+    background: #222;
+    color: white;
+}
+
+#newsletter input {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+#newsletter button {
+    padding: 10px 20px;
+    background: gold;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#newsletter button:hover {
+    background: #e6b800;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+    font-size: 14px;
+}
+
+/* Despre Noi - Hero */
+.about-hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: url('https://source.unsplash.com/1600x700/?luxury,jewelry') center/cover no-repeat;
+    color: rgb(0, 0, 0);
+}
+
+.about-hero h1 {
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+}
+
+.about-hero p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Despre Noi - Conținut */
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px 10%;
+}
+
+.about-text {
+    max-width: 500px;
+}
+
+.about-text h2 {
+    font-size: 28px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Echipa */
+.team {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.team h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.member {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.member h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.member p {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Buton Înapoi */
+.back-home {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.back-home .btn {
+    background: gold;
+    padding: 12px 24px;
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+.back-home .btn:hover {
+    background: #e6b800;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+    font-size: 14px;
+}
